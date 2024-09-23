@@ -1,0 +1,29 @@
+{
+  "name": "discord-vc-bot",
+  "version": "0.0.1",
+  "description": "Discord chat BOT service.",
+  "main": "main.ts",
+  "scripts": {
+    "start": "node dist/main.js",
+    "build": "tsc",
+    "dev": "nodemon ./src/main.ts",
+    "test": "jest",
+    "format": "prettier --write src/**/*.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/KeisukeNAITO/discord-vc-bot.git"
+  },
+  "author": "Keisuke NAITO",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.7",
+    "prettier": "^3.3.3",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
