@@ -9,8 +9,9 @@
     "build": "tsc",
     "dev": "nodemon --exec tsx ./src/main.mts",
     "test": "jest",
-    "lint": "biome lint ./src",
-    "format": "biome format --write"
+    "lint": "biome lint --verbose",
+    "format": "biome format --write --verbose",
+    "check": "biome check --reporter=github"
   },
   "repository": {
     "type": "git",
