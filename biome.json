@@ -11,14 +11,14 @@
 	},
 	"formatter": {
 		"enabled": true,
-		"include": ["src/**/*.*"]
+		"include": ["src/**/*.*", "test/**/*.*"]
 	},
 	"organizeImports": {
 		"enabled": true
 	},
 	"linter": {
 		"enabled": true,
-		"include": ["src/**/*.*"],
+		"include": ["src/**/*.*", "test/**/*.*"],
 		"rules": {
 			"recommended": true
 		}
