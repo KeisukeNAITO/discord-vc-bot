@@ -14,7 +14,7 @@
 		"include": ["src/**/*.*", "test/**/*.*"]
 	},
 	"organizeImports": {
-		"enabled": true
+		"enabled": false
 	},
 	"linter": {
 		"enabled": true,
